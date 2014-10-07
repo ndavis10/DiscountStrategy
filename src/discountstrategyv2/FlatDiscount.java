@@ -70,6 +70,7 @@ public class FlatDiscount implements DiscountStrategy {
     @Override
     /**
      * Returns the discount based on the quantity.
+     * @param qty The quantity ordered so far
      */
     public int getDiscount(int qty) {
         if(!isPercent)

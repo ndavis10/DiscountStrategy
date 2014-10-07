@@ -6,8 +6,10 @@
 package discountstrategyv2;
 
 /**
- *
- * @author viewt_000
+ * This class represents a discount that requires a specified quantity of items
+ * to be valid.
+ * @author Nathaniel Davis
+ * @version 0.8
  */
 public class QuantityDiscount implements DiscountStrategy
 {
