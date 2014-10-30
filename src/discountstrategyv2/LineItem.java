@@ -111,4 +111,13 @@ public class LineItem {
             }
             return sub;        
     }
+    
+    /**
+     * For encapsulation purposes
+     * @return ItemType of the contained item
+     */
+    public ItemType getType()
+    {
+        return item.getType();
+    }
 }
